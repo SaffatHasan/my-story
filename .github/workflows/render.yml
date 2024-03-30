@@ -3,8 +3,10 @@ on:
   push:
     branches:
       - main
+permissions:
+  contents: write
 jobs:
-  main:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -23,10 +25,9 @@ jobs:
           template: timeline-static.jinja
           output_file: publish/static.html
 
-
       - name: Deploy 🚀
         if: ${{ !env.ACT }}
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: publish/ # The folder the action should deploy.
