@@ -1,5 +1,30 @@
 timeline:
-  - 
+  - date: 09-04-2012
+    text: Started NYU
+  - date: 04-01-2015
+    text: academic dismissal from NYU; GPA 1.41
+  - date: 01-29-2016
+    text: Started QCC
+  - date: 06-02-2017
+    text: Graduated QCC; GPA 3.94
+  - date: 09-25-2017
+    text: Started Drexel
+  - date: 02-22-2021
+    text: Started interview prep
+  - date: 03-20-2021
+    text: Graduated Drexel; GPA 3.66
+  - date: 09-01-2021
+    text: Applying for jobs start
+  - date: 09-24-2021
+    text: Disney offer
+  - date: 10-13-2021
+    text: CapitalOne offer
+  - date: 10-25-2021
+    text: Amazon offer
+  - date: 11-09-2021
+    text: Google offer
+  - date: 11-25-2021
+    text: got dog
   - date: 12-23-2022
     text: Bought home
   - date: 12-15-2023
