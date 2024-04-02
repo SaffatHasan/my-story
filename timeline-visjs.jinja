@@ -22,7 +22,7 @@
   // Create a DataSet (allows two way data-binding)
   var items = new vis.DataSet([
     {%- for event in timeline %}
-    {id: {{ loop.index }}, content: '{{ event.text }}', start: '{{ event.date }}'},
+    {id: {{ loop.index }}, content: '{{ event.text }}', start: new Date('{{ event.date }}')},
     {%- endfor %}
   ]);
 
